@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pilih"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sikahita.appatmsalsa.Pilihanbank">
+
+    <Button
+        android:id="@+id/btnceksaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnsetor"
+        android:layout_alignEnd="@+id/btnsetor"
+        android:layout_alignStart="@+id/btnsetor"
+        android:text="Cek Saldo" />
+
+    <Button
+        android:id="@+id/btnsetor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btntarik"
+        android:layout_centerHorizontal="true"
+        android:text="Penyetoran" />
+
+    <Button
+        android:id="@+id/btntarik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnsetor"
+        android:layout_alignStart="@+id/btnsetor"
+        android:layout_centerVertical="true"
+        android:text="Penarikan" />
+
+    <Button
+        android:id="@+id/btntransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btntarik"
+        android:layout_alignStart="@+id/btntarik"
+        android:layout_below="@+id/btntarik"
+        android:text="Transfer" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btntransfer"
+        android:layout_alignStart="@+id/btntransfer"
+        android:layout_below="@+id/btntransfer"
+        android:text="Keluar" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ho" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/p" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageButton2"
+        android:background="@drawable/zzzz" />
+
+</RelativeLayout>
